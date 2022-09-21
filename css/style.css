@@ -33,4 +33,13 @@ Body {
    .container {   
           padding: 25px;   
           background-color: lightblue;  
-      }  
+      }
+    .card {
+        padding: 16px;
+        text-align: center;
+    }
+    .column {
+        float: left;
+        width: 25%;
+        padding: 0 10px;
+    }

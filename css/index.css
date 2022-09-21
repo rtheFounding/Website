@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+}
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+}
+.image{
+    width: 1000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    
+}
+.banner-area h2{
+    padding-top: 8%;
+    font-size: 80px;
+    color: white;
+}
+.content-area h2{
+    font-size: 40px;
+    text-align: center;
+    padding-top:30px;
+    letter-spacing: 4px;
+}
+.content-area p{
+    font-size: 20px;
+    text-align: justify;
+}
+.title{
+    text-decoration: underline;
+    padding-left: 2.3em;
+    padding-bottom: 1em
+}
+ul h4 {
+    font-size: 40px;
+    padding-left: 1.2em;
+}
+ul li{
+    font-size: px;
+    
+}
+.article-links{
+    box-sizing: border-box;
+    padding: 25px 50px 75px;
+}
