@@ -23,3 +23,7 @@
   transform: scale(1.03);
 
 }
+.gradient-custom {
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to bottom right, rgb(252, 252, 252), rgb(116, 110, 110))
+  }
