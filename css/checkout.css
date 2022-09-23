@@ -10,8 +10,7 @@
 }
 
 #wrapper {
-	display: table;
-	table-layout: fixed;
+	display: table; /* Setting display to table makes the element behave like a table. */
 	width: 100%;
 	height: 100vh;
 }
@@ -51,7 +50,7 @@
 	box-shadow: 0px 3px 6px rgba(8, 8, 8, 0.2);
 	margin-bottom: 10%;
 	overflow: hidden;
-	position: relative;
+	position: relative; /* keeps price tags inline with cards*/
 }
 
 .item:last-of-type {
@@ -98,7 +97,7 @@ hr {
 	margin: 0 auto;
 }
 
-.checkout p {
+.checkout p { /* aligns shipping checkout and confirmation*/
 	display: inline-flex;
 	flex-direction: row;
 	margin-right: 4%;
@@ -109,13 +108,6 @@ hr {
 	font-size: 1.6em;
 }
 
-.checkout i {
-	margin-right: 4%;
-}
-
-.checkout p:last-of-type, .checkout i:nth-of-type(3) {
-	opacity: 0.5;
-}
 
 .payment {
 	background-color: white;
@@ -159,27 +151,19 @@ hr {
 	opacity: 1;
 }
 
-.paypal {
-	margin-right: 0;
-}
-
 .title {
 	color: #242424 !important;
 	opacity: 1 !important;
 	font-size: 1em !important;
 }
 
-input, select {
+input, select { /* adjusting and styling boxes */
 	border: none;
 	padding: 2%;
 	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
 	margin-top: 2%;
 }
 
-input:focus,
-select:focus {
-	outline: none;
-}
 
 .number {
 	width: 20%;
@@ -196,24 +180,12 @@ select:focus {
 }
 
 .cardHolderName input {
-	width: 100%;
-}
-
-select {
-	margin-right: 2%;
-}
-
-select:last-of-type {
-	margin-right: 0;
+	width: 100%; /* width of box below card holder name*/
 }
 
 .expiration, .security {
 	margin-bottom: 10%;
-}
-
-.security input {
-	width: 25%;
-}
+} /*space between the bottom of both expiration and security */
 
 button {
 	background-color: #161515;
