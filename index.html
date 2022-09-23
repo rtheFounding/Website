@@ -10,17 +10,19 @@
         </head>
         <body>
           <header>
-          <nav class="navbar navbar-expand-lg py-3 navbar-dark bg-dark shadow-sm">
-            <div class="container-fluid">
-              <a href="index.html" class="navbar-brand">
+          <nav class="navbar navbar-expand-lg py-3 navbar-dark bg-dark shadow-sm"> <!--The .navbar class is used to create a navigation bar. The navbar can extend or collapse, depending on the device size ie, the navbar is used to create the responsive design by using .navbar-expand-xl|lg|md|sm class.
+             So, It provides flexibility to the web page.-->
+            <div class="container-fluid"><!--.container-fluid: The .container-fluid class provides a full-width container which spans the entire width of the viewport. while the .container responsive fixed width container.-->
+              <a href="index.html" class="navbar-brand"><!--navbar-brand class is applied to brand a logo on the navigation bar-->
                 <!-- Logo Image -->
-                <img src="images/aclogo.png" width="45" alt="" class="d-inline-block align-middle mr-2">
+                <img src="images/aclogo.png" width="45" alt="" class="d-inline-block align-middle mr-2"><!--one common use for display: inline-block is to display list items horizontally instead of vertically.
+                By default, list items are displayed vertically. In this example we use display: inline-block to display them horizontally (side by side).-->
                 <!-- Logo Text -->
                 <span class="text-uppercase font-weight-bold">Creed Link</span>
               </a>
           
-                <ul class="navbar-nav me-auto">
-                  <li class="nav-item active"><a class="nav-link" href="index.html" class="nav-link">Home</a></li>
+                <ul class="navbar-nav mx-auto"><!--mx-auto class for horizontally centering -->
+                  <li class="nav-item active"><a class="nav-link" href="index.html" class="nav-link">Home</a></li> <!--it can apply an active style to the link if it is active.-->
                   <li class="nav-item"><a class="nav-link" href="products.html">Our Products</a></li>
                   <li class="nav-item"><a class="nav-link" href="checkout.html" class="nav-link">Checkout</a></li>
                 </ul>
